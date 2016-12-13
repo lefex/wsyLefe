@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "wsyLefe"
   s.version      = "0.0.1"
-  s.summary      = "A short description of wsyLefe. mme"
+  s.summary      = "A pod test for user"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   "Hellll"
+                   "We are study, the is a eroor, you sister!"
                    DESC
 
   s.homepage     = "https://github.com/lefex/wsyLefe"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lefex/wsyLefe.git", :tag => "0.01" }
+  s.source       = { :git => "https://github.com/lefex/wsyLefe.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "lefe/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
